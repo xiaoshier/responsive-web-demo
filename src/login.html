@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="zn-CH" class="no-js">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport"
+        content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="screen-orientation" content="portrait">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="keywords" content="中科软，需求，设计，开发"/>
+
+  <link rel="shortcut icon" href="./images/favicon.ico"/>
+  <link rel="stylesheet" href="./stylesheets/bootstrap.css"/>
+  <link rel="stylesheet" href="stylesheets/main.css"/>
+
+  <script src="./javascripts/jquery-1.11.3.min.js"></script>
+
+  <!-- HTML5 shim for IE8 support of HTML5 elements-->
+  <!-- Respond.js for IE8 support of media queries-->
+  <!--selectivizr.js for IE8 support of css3 selector -->
+  <!-- PIE.js for IE8 support of border-radius-->
+  <!-- for-ie-hack.js for IE8 support of css-->
+  <!--[if lt IE 9]>
+  <link rel="stylesheet" href="./stylesheets/ie.css"/>
+  <script src="./javascripts/html5shiv.min.js"></script>
+  <script src="./javascripts/respond.min.js"></script>
+  <script src="./javascripts/PIE.js"></script>
+  <script src="./javascripts/for-ie-hack.js"></script>
+  <![endif]-->
+
+
+  <title>中科软电子商务平台</title>
+
+</head>
+<body class="account-page">
+
+<!--网站内容-->
+<div id="content-wrap">
+
+  <div class="layout">
+    <header id="global-header">
+      <div class="navbar  container-fluid">
+
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+
+          <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="nav-sino-icon icon-bar"></span>
+            <span class="nav-sino-icon icon-bar"></span>
+            <span class="nav-sino-icon icon-bar"></span>
+          </button>
+
+          <a class="navbar-brand clearfix" href="index.html">
+            <section class="clearfix">
+              <img class="left logo" src="images/logo.png" alt="中科软logo"/>
+
+              <div class="left">
+                <p class="brand">中科软电子商务平台</p>
+
+                <p class="brand">Sinosoft Co., LTD </p>
+              </div>
+            </section>
+          </a>
+        </div>
+
+      </div>
+    </header>
+
+    <!--common content-->
+    <article class="common-content-wrap account-container">
+
+      <div class="login-pic visible-lg visible-md visible-sm">
+
+        <img src="./images/login-pic.png" alt="登录"/>
+
+      </div>
+
+
+      <section class="account-wrap">
+        <div class="form-title form-field">
+          <a href="login.html" class="current">登录</a>
+          <a href="register.html">注册</a>
+        </div>
+        <form class="form-group" action="">
+
+          <!--账号-->
+          <div class="form-field input-wrap">
+            <input type="text" id="login-account" placeholder="请输入手机号/邮箱" autofocus/>
+            <span class="text-del">x</span>
+            <!--[if lt IE 9]>
+            <span class="placeholder">请输入手机号/邮箱</span>
+            <![endif]-->
+          </div>
+
+          <!--密码-->
+          <div class="form-field input-wrap">
+            <input type="password" id="login-password" placeholder="请输入密码"/>
+            <span class="text-del">x</span>
+
+            <!--[if lt IE 9]>
+            <span class="placeholder">请输入密码</span>
+            <![endif]-->
+          </div>
+
+          <!--忘记密码-->
+          <div class="form-field form-field-forget">
+            <a href="change-password.html">忘记密码?</a>
+          </div>
+
+          <!--输入错误提示-->
+          <div class="form-field failure-tips">
+            <ul>
+              <li>
+                <i class="error"></i>
+                <span>请填写手机号或邮箱号</span>
+              </li>
+
+            </ul>
+          </div>
+
+          <!--提交按钮-->
+          <div class="form-field input-wrap">
+            <button class="btn submit-btn">登录</button>
+
+          </div>
+
+          <div class="form-field other-login">
+            <span>社交账户登录</span>
+            <a href="#" class="icon-wechat"></a>
+            <a href="#" class="icon-qq"></a>
+            <a href="#" class="icon-blog"></a>
+          </div>
+        </form>
+
+      </section>
+
+    </article>
+
+    <div id="layout-footer"></div>
+
+  </div>
+
+  <footer id="global-footer">
+    <ul>
+      <li>
+        <a href="about-our.html">关于我们</a>
+        <a href="#">联系我们</a>
+        <a href="#">法律声明</a>
+        <a href="#">合作代理</a>
+      </li>
+
+      <li>
+        <span>地址：北京市海淀区中关村科学院南路新科祥园甲6号</span>
+        <span>邮编 100190</span>
+        <span>总机 010-62570007</span>
+        <span>传真 010-82523227</span>
+      </li>
+
+      <li>
+        <span>Copyright©2004 Sinosoft.com.cn 京ICP备05055577号</span>
+      </li>
+    </ul>
+  </footer>
+
+</div>
+
+
+<!--移动端页面导航-->
+<div id="nav-mobile-wrap" class="visible-xs">
+
+  <div class="nav-mobile-close">
+    <span>x</span>
+  </div>
+
+  <div class="mobile-account-wrap">
+
+    <a href="#">
+      <img class="circle" src="./images/head-portrait.png" alt="头像"/>
+    </a>
+
+    <div class="mobile-account">
+      <a href="login.html">登录</a>
+      <a href="register.html">注册</a>
+    </div>
+  </div>
+
+  <ul class="nav-mobile">
+    <li><a href="index.html">首页</a></li>
+
+    <li><a href="manage-index.html">精益管理</a></li>
+
+    <li><a href="industry-schemes.html">行业方案</a></li>
+
+    <li><a href="product-market.html">产品超市</a></li>
+
+    <li><a href="team-strength.html">团队实力</a></li>
+
+    <li><a href="about-our.html">了解我们</a></li>
+
+    <li><a href="cooperation.html">合作事宜</a></li>
+  </ul>
+</div>
+<script src="./javascripts/main.js"></script>
+
+
+</body>
+</html>
