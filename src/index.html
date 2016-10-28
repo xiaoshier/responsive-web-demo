@@ -1,453 +1,428 @@
 <!DOCTYPE html>
 <html lang="zn-CH" class="no-js">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport"
-        content="width=device-width, initial-scale=1, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="screen-orientation" content="portrait">
-  <meta name="format-detection" content="telephone=no">
-  <meta name="keywords" content="中科软，需求，设计，开发"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=0">
+	<meta name="screen-orientation" content="portrait">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="keywords"  content="中科软，需求，设计，开发" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="shortcut icon" href="./images/logo.ico" />
+	<link rel="stylesheet" href="./stylesheets/bootstrap.css" />
+	<link rel="stylesheet" href="./stylesheets/jquery.fullPage.css"/>
+	<link rel="stylesheet" href="./stylesheets/main.css"/>
+	<script src="./javascripts/jquery-1.11.3.min.js"></script>
 
-  <link rel="shortcut icon" href="./images/favicon.ico"/>
-  <link rel="stylesheet" href="./stylesheets/bootstrap.css"/>
-  <link rel="stylesheet" href="./stylesheets/jquery.fullPage.css"/>
-  <link rel="stylesheet" href="stylesheets/main.css"/>
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!--[if lt IE 9]>
+	<script src="javascripts/respond.min.js"></script>
+	<script src="javascripts/html5shiv.min.js"></script>
+	<![endif]-->
 
-  <script src="./javascripts/jquery-1.11.3.min.js"></script>
-
-  <!-- HTML5 shim for IE8 support of HTML5 elements-->
-  <!-- Respond.js for IE8 support of media queries-->
-  <!-- PIE.js for IE8 support of border-radius-->
-  <!-- for-ie-hack.js for IE8 support of css-->
-  <!--[if lt IE 9]>
-  <link rel="stylesheet" href="./stylesheets/ie.css"/>
-  <script src="./javascripts/html5shiv.min.js"></script>
-  <script src="./javascripts/respond.min.js"></script>
-  <script src="./javascripts/PIE.js"></script>
-  <script src="./javascripts/for-ie-hack.js"></script>
-  <![endif]-->
+	<script src="javascripts/modernizr-2.6.2.min.js"></script>
 
 
-  <title>中科软电子商务平台</title>
+	<!--[if IE]>
+	<script type="text/javascript">
+		var console = { log: function() {} };
+	</script>
+	<![endif]-->
 
+	<title>中科软电子商务平台</title>
 </head>
 
 <body class="home-page">
 <div id="content-wrap">
-  <header id="global-header">
-    <div class="navbar  container-fluid">
-
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header">
-
-        <button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-collapse">
-          <span class="sr-only">Toggle navigation</span>
-          <span class="nav-sino-icon icon-bar"></span>
-          <span class="nav-sino-icon icon-bar"></span>
-          <span class="nav-sino-icon icon-bar"></span>
-        </button>
-
-        <a class="navbar-brand clearfix" href="index.html">
-          <section class="clearfix">
-            <img class="left logo" src="images/logo.png" alt="中科软logo"/>
-
-            <div class="left">
-              <p class="brand">中科软电子商务平台</p>
-
-              <p class="brand">Sinosoft Co., LTD </p>
-            </div>
-          </section>
-        </a>
-      </div>
-
-      <!--register and log in-->
-      <div class="right my-account-wrap visible-md visible-lg">
-        <ul>
-
-          <li class="my-account right">
-            <a class="log-in" href="login.html">登录&nbsp;&nbsp;|</a>
-            <a class="sign-up" href="register.html">注册</a>
-          </li>
-
-        </ul>
-      </div>
-
-
-      <!-- Collect the nav links for toggling -->
-      <nav class="collapse navbar-collapse  visible-lg visible-md">
-        <ul class="nav navbar-nav">
-
-          <li class="nav-main-current"><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
-
-          <li><a href="manage-index.html">精益管理</a></li>
-
-          <li><a href="industry-schemes.html">行业方案</a></li>
-
-          <li><a href="product-market.html">产品超市</a></li>
-
-          <li><a href="team-strength.html">团队实力</a></li>
-
-          <li><a href="about-our.html">了解我们</a></li>
-
-          <li><a href="cooperation.html">合作事宜</a></li>
-
-        </ul>
-      </nav>
-      <!-- /.nav bar-collapse -->
-
-    </div>
-  </header>
-
-  <article id="fullpage" class="content">
-
-    <section class="section " id="section0">
-
-      <div id="text-cloud">
-        <span>线上有几个顾客就叫流量？</span>
-        <span>开个微店就叫微商？</span>
-        <span>淘宝快递太慢？</span>
-        <span>做个网店就叫电商？</span>
-        <span>贴了个商标就叫品牌？</span>
-        <span>实体店门可罗雀？</span>
-
-        <span>地理位置好坏都没人来~</span>
-
-        <span>做个网店就叫电商？</span>
-        <span>进货成本太高？</span>
-        <span>淘宝商品同类太多？</span>
-        <span>淘宝快递太慢？</span>
-        <span>淘宝竞价排名太贵？</span>
-
-        <span>抓住互联网＋</span>
-        <span>转型怕死,不转型等死！</span>
-        <span>互联网?=销售渠道</span>
-        <span>实体店门可罗雀？</span>
-      </div>
-
-      <!--向下的提示-->
-      <div class="index-next arrow-down"></div>
-    </section>
-
-    <section class="section " id="section1">
-      <div class="intro index-content-container">
-
-        <!--首页右边大图-->
-        <div class="index-main-pic-wrap">
-          <i class=" index-line-bg line-right-odd"></i>
-          <i class="index-main-pic index-main-odd demand-main-pic "></i>
-        </div>
-
-        <!--首页左边内容-->
-        <div class="index-sub-wrap index-sub-wrap-odd index-sub-wrap1">
-          <!--左边大图-->
-          <div class="index-sub-pic-wrap">
-            <i class="demand-sub-pic index-sub-pic"></i>
-          </div>
-
-          <!--左边文字-->
-          <div class="index-text-wrap">
-
-            <!--首页文字部分图片-->
-            <i class="index-text-pic demand-text-pic"></i>
-
-            <!--首页文字部分-->
-            <div class="index-text-container">
-              <p class="text1">数<span class="index-text-big">10人</span>的互联网<span class="index-text-big">专家</span></p>
-
-              <p class="text2">数以<span class="index-text-big">百</span>计的传统行业、传统电商转型<span
-                  class="index-text-big">方案</span></p>
-
-              <p class="text3">创造数<span class="index-text-big">10亿</span>的<span class="index-text-big">融资</span></p>
-
-              <p class="text4">我们帮你转型成<span class="index-text-big">电商</span>,我们帮你转向<span
-                  class="index-text-big">互联网</span></p>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="section" id="section2">
-      <div class="intro index-content-container">
-
-        <!--首页右边大图-->
-        <div class="index-main-pic-wrap index-main-pic-wrap-even">
-          <i class=" index-line-bg line-right-even"></i>
-          <i class=" index-line-bg line-left-even"></i>
-          <i class="index-main-pic index-main-even design-main-pic"></i>
-        </div>
-
-
-        <!--首页左边内容-->
-        <div class="index-sub-wrap index-sub-wrap-even index-sub-wrap2">
-          <!--左边大图-->
-          <div class="index-sub-pic-wrap">
-            <i class="design-sub-pic index-sub-pic"></i>
-          </div>
-
-          <!--左边文字-->
-          <div class="index-text-wrap">
-
-            <!--首页文字部分图片-->
-            <i class="index-text-pic design-text-pic"></i>
-
-            <!--首页文字部分-->
-            <div class="index-text-container">
-              <p class="text1">UCD设计给你</p>
-
-              <p class="text2"><span class="index-text-big">响应式</span>布局,情感化<span class="index-text-big">交互</span><br/>富有<span
-                  class="index-text-big">灵魂</span>的产品</p>
-
-              <p class="text3">架构设计给你</p>
-
-              <p class="text4"><span class="index-text-big">安全</span>的保证,性能的<span class="index-text-big">稳固</span><br/>永<span
-                  class="index-text-big">不过时</span>的界面</p>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="section" id="section3">
-      <div class="intro index-content-container">
-
-        <!--首页右边大图-->
-        <div class="index-main-pic-wrap">
-          <i class=" index-line-bg line-right-odd"></i>
-          <i class=" index-line-bg line-left-odd"></i>
-          <i class="index-main-pic index-main-odd develop-main-pic"></i>
-        </div>
-
-        <!--首页左边内容-->
-        <div class="index-sub-wrap index-sub-wrap-odd index-sub-wrap3">
-          <!--左边大图-->
-          <div class="index-sub-pic-wrap">
-            <i class="develop-sub-pic index-sub-pic"></i>
-          </div>
-
-          <!--左边文字-->
-          <div class="index-text-wrap">
-
-            <!--首页文字部分图片-->
-            <i class="index-text-pic develop-text-pic"></i>
-
-            <!--首页文字部分-->
-            <div class="index-text-container">
-              <p class="text1">我们有<span class="index-text-big">200人</span>的技术攻坚团队</p>
-
-              <p class="text2">我们有以<span class="index-text-big">北京</span>为核心,<br/>辐射<span
-                  class="index-text-big">七</span>大主要城市的根据地</p>
-
-              <p class="text3">我们有各项<span class="index-text-big">国家级</span>必备资质以及<br/><span
-                  class="index-text-big">10</span>余种体系验证</p>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="section" id="section4">
-      <div class="intro index-content-container">
-
-        <!--首页右边大图-->
-        <div class="index-main-pic-wrap index-main-pic-wrap-even">
-          <i class=" index-line-bg line-right-even"></i>
-          <i class=" index-line-bg line-left-even"></i>
-          <i class="index-main-pic index-main-even test-main-pic"></i>
-        </div>
-
-        <!--首页左边内容-->
-        <div class="index-sub-wrap index-sub-wrap-even index-sub-wrap4">
-          <!--左边大图-->
-          <div class="index-sub-pic-wrap">
-            <i class="test-sub-pic index-sub-pic"></i>
-          </div>
-
-          <!--左边文字-->
-          <div class="index-text-wrap">
-
-            <!--首页文字部分图片-->
-            <i class="index-text-pic test-text-pic"></i>
-
-            <!--首页文字部分-->
-            <div class="index-text-container">
-              <p class="text1">我们有另开发痛绝的<span class="index-text-big">质量</span>保证团队</p>
-
-              <p class="text2"><span class="index-text-big">黑盒</span>测试、<span class="index-text-big">白盒</span>测试,保证系统功能完备
-              </p>
-
-              <p class="text3">多种<span class="index-text-big">专业</span>的性能测试、安全测试软件</p>
-            </div>
-
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="section" id="section5">
-      <div class="intro index-content-container">
-
-        <!--首页右边大图-->
-        <div class="index-main-pic-wrap">
-          <i class="index-main-pic  index-main-odd operate-main-pic"></i>
-          <i class=" index-line-bg line-right-odd"></i>
-          <i class=" index-line-bg line-left-odd"></i>
-        </div>
-
-        <!--首页左边内容-->
-        <div class="index-sub-wrap index-sub-wrap-odd index-sub-wrap5">
-          <!--左边大图-->
-          <div class="index-sub-pic-wrap">
-            <i class="operate-sub-pic index-sub-pic"></i>
-          </div>
-
-          <!--左边文字-->
-          <div class="index-text-wrap">
-
-            <!--首页文字部分图片-->
-            <i class="index-text-pic operate-text-pic"></i>
-
-            <!--首页文字部分-->
-            <div class="index-text-container">
-              <p class="text1">运营1个月保证<span class="index-text-big">1万成交</span>用户到位</p>
-
-              <p class="text2">把奇瑞卖成<span class="index-text-big">宾利</span>的价格</p>
-
-              <p class="text3"><span class="index-text-big">策划</span>、<span class="index-text-big">包装</span>、<span
-                  class="index-text-big">文案</span>全套个性化服务</p>
-
-              <p class="text4">线上红红火火,线下热热闹闹,<br/>红火热闹的同事赚的是<span class="index-text-big">真金白银</span></p>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <section class="section" id="section6">
-      <div class="intro index-content-container">
-
-        <!--首页右边大图-->
-        <div class="index-main-pic-wrap index-main-pic-wrap-even">
-          <i class="index-main-pic index-main-even maintenance-main-pic"></i>
-          <i class=" index-line-bg line-right-even"></i>
-        </div>
-
-        <!--首页左边内容-->
-        <div class="index-sub-wrap index-sub-wrap-even index-sub-wrap6">
-          <!--左边大图-->
-          <div class="index-sub-pic-wrap">
-            <i class="maintenance-sub-pic index-sub-pic"></i>
-          </div>
-
-          <!--左边文字-->
-          <div class="index-text-wrap">
-
-            <!--首页文字部分图片-->
-            <i class="index-text-pic maintenance-text-pic"></i>
-
-            <!--首页文字部分-->
-            <div class="index-text-container">
-              <p class="text1">域名我来<span class="index-text-big">代管</span></p>
-
-              <p class="text2">服务器<span class="index-text-big">我来维护</span></p>
-
-              <p class="text3">报表<span class="index-text-big">清除明细</span></p>
-
-              <p class="text4">7*24<span class="index-text-big">流畅</span>运行是最低保证</p>
-
-              <p class="text5">以分钟为单位响应<span class="index-text-big">无人能比</span></p>
-
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-  </article>
+	<header id="global-header">
+		<div class="navbar  container-fluid">
+
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+
+				<button type="button" class="navbar-toggle collapsed " data-toggle="collapse" data-target="#navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="nav-sino-icon icon-bar"></span>
+					<span class="nav-sino-icon icon-bar"></span>
+					<span class="nav-sino-icon icon-bar"></span>
+				</button>
+
+				<a class="navbar-brand clearfix" href="index.html">
+					<section class="clearfix">
+						<img class="left logo" src="images/logo.png" alt="中科软logo"/>
+						<div class="left">
+							<p class="brand">中科软电子商务平台</p>
+							<p class="brand">Sinosoft Co., LTD </p>
+						</div>
+					</section>
+				</a>
+			</div>
+
+			<!--register and log in-->
+			<div class="right my-account-wrap visible-md visible-lg">
+				<ul>
+
+					<li class="my-account right">
+						<a class="log-in" href="login.html">登录&nbsp;&nbsp;|</a>
+						<a class="sign-up" href="register.html">注册</a>
+					</li>
+
+				</ul>
+			</div>
+
+
+			<!-- Collect the nav links for toggling -->
+			<nav class="collapse navbar-collapse nav-sino-icon-collapse" id="">
+				<ul class="nav navbar-nav">
+
+					<li>
+						<a class="global-header-active" href="index.html">首页</a>
+					</li>
+
+					<li>
+						<a href="service.html">服务</a>
+					</li>
+
+					<li>
+						<a href="product-market.html">产品超市</a>
+					</li>
+
+
+					<li>
+						<a href="team-strength.html">团队实力</a>
+					</li>
+
+					<li>
+						<a href="about.html">了解我们</a>
+					</li>
+
+					<li>
+						<a href="cooperation.html">合作事宜</a>
+					</li>
+
+				</ul>
+			</nav><!-- /.nav bar-collapse -->
+
+		</div>
+	</header>
+
+	<article id="fullpage" class="content">
+
+		<section class="section " id="section0">
+
+			<div class="intro">
+				<a href="#" class="position-top top1">线上有几个顾客就叫流量？</a>
+				<a href="#" class="position-top top2">开个微店就叫微商？</a>
+				<a href="#" class="position-top top3">做个网店就叫电商？</a>
+				<a href="#" class="position-top top4">贴了个商标就叫品牌？</a>
+
+				<a href="#" class="position-middle middle1">质量好,价格低,为什么没人买？</a>
+				<a href="#" class="position-middle middle2">门脸租金暴涨,你还在为房东打工？</a>
+				<a href="#" class="position-middle middle3">16年来了,你还有10年的货,库房不要钱？</a>
+				<a href="#" class="position-middle middle4">员工工资暴涨,你还在为员工打工？</a>
+				<a href="#" class="position-middle middle5">地理位置差没人来,地理位置好还是没人来~</a>
+
+				<a href="#" class="position-bottom bottom1">进货成本太高？</a>
+				<a href="#" class="position-bottom bottom2">淘宝品质较高,越来越无法吸引顾客？</a>
+				<a href="#" class="position-bottom bottom3">淘宝商品同类太多？</a>
+				<a href="#" class="position-bottom bottom4">淘宝快递太慢？</a>
+				<a href="#" class="position-bottom bottom5">淘宝竞价排名太贵？</a>
+
+				<a href="#" class="position-background background1">如何抓住互联网＋的机会</a>
+				<a href="#" class="position-background background2">转型怕死,不转型等死！</a>
+				<a href="#" class="position-background background3">世界这么大,而你却在夹缝中求生存?</a>
+				<a href="#" class="position-background background4">互联网?=销售渠道</a>
+				<a href="#" class="position-background background5">实体店门可罗雀？</a>
+				<a href="#" class="position-background background6">实体店门可罗雀？</a>
+				<a href="#" class="position-background background7">世界这么大,而你却在夹缝中求生存?</a>
+			</div>
+
+			<!--向下的提示-->
+			<div class="index-next">
+				<img src="./images/yellow-triangle.png" alt=""/>
+			</div>
+		</section>
+
+		<section class="section " id="section1">
+			<div class="intro index-content-container">
+
+				<!--首页右边大图-->
+				<div class="index-main-pic-wrap">
+					<i class=" index-line-bg line-right-odd"></i>
+					<i class="index-main-pic index-main-odd demand-main-pic "></i>
+				</div>
+
+				<!--首页左边内容-->
+				<div class="index-sub-wrap index-sub-wrap-odd index-sub-wrap1">
+					<!--左边大图-->
+					<div class="index-sub-pic-wrap">
+						<i class="demand-sub-pic index-sub-pic"></i>
+					</div>
+
+					<!--左边文字-->
+					<div class="index-text-wrap">
+
+						<!--首页文字部分图片-->
+						<i class="index-text-pic demand-text-pic"></i>
+
+						<!--首页文字部分-->
+						<div class="index-text-container">
+							<p class="text1">数<span class="index-text-big">10人</span>的互联网<span class="index-text-big">专家</span></p>
+							<p class="text2">数以<span class="index-text-big">百</span>计的传统行业、传统电商转型<span class="index-text-big">方案</span></p>
+							<p class="text3">创造数<span class="index-text-big">10亿</span>的<span class="index-text-big">融资</span></p>
+							<p class="text4">我们帮你转型成<span class="index-text-big">电商</span>,我们帮你转向<span class="index-text-big">互联网</span></p>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="section" id="section2">
+			<div class="intro index-content-container">
+
+				<!--首页右边大图-->
+				<div class="index-main-pic-wrap index-main-pic-wrap-even">
+					<i class=" index-line-bg line-right-even"></i>
+					<i class=" index-line-bg line-left-even"></i>
+					<i class="index-main-pic index-main-even design-main-pic"></i>
+				</div>
+
+
+				<!--首页左边内容-->
+				<div class="index-sub-wrap index-sub-wrap-even index-sub-wrap2">
+					<!--左边大图-->
+					<div class="index-sub-pic-wrap">
+						<i class="design-sub-pic index-sub-pic"></i>
+					</div>
+
+					<!--左边文字-->
+					<div class="index-text-wrap">
+
+						<!--首页文字部分图片-->
+						<i class="index-text-pic design-text-pic"></i>
+
+						<!--首页文字部分-->
+						<div class="index-text-container">
+							<p class="text1">UCD设计给你</p>
+							<p class="text2"><span class="index-text-big">响应式</span>布局,情感化<span class="index-text-big">交互</span><br/>富有<span class="index-text-big">灵魂</span>的产品</p>
+							<p class="text3">架构设计给你</p>
+							<p class="text4"><span class="index-text-big">安全</span>的保证,性能的<span class="index-text-big">稳固</span><br/>永<span class="index-text-big">不过时</span>的界面</p>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="section" id="section3">
+			<div class="intro index-content-container">
+
+				<!--首页右边大图-->
+				<div class="index-main-pic-wrap">
+					<i class=" index-line-bg line-right-odd"></i>
+					<i class=" index-line-bg line-left-odd"></i>
+					<i class="index-main-pic index-main-odd develop-main-pic"></i>
+				</div>
+
+				<!--首页左边内容-->
+				<div class="index-sub-wrap index-sub-wrap-odd index-sub-wrap3">
+					<!--左边大图-->
+					<div class="index-sub-pic-wrap">
+						<i class="develop-sub-pic index-sub-pic"></i>
+					</div>
+
+					<!--左边文字-->
+					<div class="index-text-wrap">
+
+						<!--首页文字部分图片-->
+						<i class="index-text-pic develop-text-pic"></i>
+
+						<!--首页文字部分-->
+						<div class="index-text-container">
+							<p class="text1">我们有<span class="index-text-big">200人</span>的技术攻坚团队</p>
+							<p class="text2">我们有以<span class="index-text-big">北京</span>为核心,<br/>辐射<span class="index-text-big">七</span>大主要城市的根据地</p>
+							<p class="text3">我们有各项<span class="index-text-big">国家级</span>必备资质以及<br/><span class="index-text-big">10</span>余种体系验证</p>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="section" id="section4">
+			<div class="intro index-content-container">
+
+				<!--首页右边大图-->
+				<div class="index-main-pic-wrap index-main-pic-wrap-even">
+					<i class=" index-line-bg line-right-even"></i>
+					<i class=" index-line-bg line-left-even"></i>
+					<i class="index-main-pic index-main-even test-main-pic"></i>
+				</div>
+
+				<!--首页左边内容-->
+				<div class="index-sub-wrap index-sub-wrap-even index-sub-wrap4">
+					<!--左边大图-->
+					<div class="index-sub-pic-wrap">
+						<i class="test-sub-pic index-sub-pic"></i>
+					</div>
+
+					<!--左边文字-->
+					<div class="index-text-wrap">
+
+						<!--首页文字部分图片-->
+						<i class="index-text-pic test-text-pic"></i>
+
+						<!--首页文字部分-->
+						<div class="index-text-container">
+							<p class="text1">我们有另开发痛绝的<span class="index-text-big">质量</span>保证团队</p>
+							<p class="text2"><span class="index-text-big">黑盒</span>测试、<span class="index-text-big">白盒</span>测试,保证系统功能完备</p>
+							<p class="text3">多种<span class="index-text-big">专业</span>的性能测试、安全测试软件</p>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section  class="section" id="section5">
+			<div class="intro index-content-container">
+
+				<!--首页右边大图-->
+				<div class="index-main-pic-wrap">
+					<i class="index-main-pic  index-main-odd operate-main-pic"></i>
+					<i class=" index-line-bg line-right-odd"></i>
+					<i class=" index-line-bg line-left-odd"></i>
+				</div>
+
+				<!--首页左边内容-->
+				<div class="index-sub-wrap index-sub-wrap-odd index-sub-wrap5">
+					<!--左边大图-->
+					<div class="index-sub-pic-wrap">
+						<i class="operate-sub-pic index-sub-pic"></i>
+					</div>
+
+					<!--左边文字-->
+					<div class="index-text-wrap">
+
+						<!--首页文字部分图片-->
+						<i class="index-text-pic operate-text-pic"></i>
+
+						<!--首页文字部分-->
+						<div class="index-text-container">
+							<p class="text1">运营1个月保证<span class="index-text-big">1万成交</span>用户到位</p>
+							<p class="text2">把奇瑞卖成<span class="index-text-big">宾利</span>的价格</p>
+							<p class="text3"><span class="index-text-big">策划</span>、<span class="index-text-big">包装</span>、<span class="index-text-big">文案</span>全套个性化服务</p>
+							<p class="text4">线上红红火火,线下热热闹闹,<br/>红火热闹的同事赚的是<span class="index-text-big">真金白银</span></p>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+		<section class="section" id="section6">
+			<div class="intro index-content-container">
+
+				<!--首页右边大图-->
+				<div class="index-main-pic-wrap index-main-pic-wrap-even">
+					<i class="index-main-pic index-main-even maintenance-main-pic"></i>
+					<i class=" index-line-bg line-right-even"></i>
+				</div>
+
+				<!--首页左边内容-->
+				<div class="index-sub-wrap index-sub-wrap-even index-sub-wrap6">
+					<!--左边大图-->
+					<div class="index-sub-pic-wrap">
+						<i class="maintenance-sub-pic index-sub-pic"></i>
+					</div>
+
+					<!--左边文字-->
+					<div class="index-text-wrap">
+
+						<!--首页文字部分图片-->
+						<i class="index-text-pic maintenance-text-pic"></i>
+
+						<!--首页文字部分-->
+						<div class="index-text-container">
+							<p class="text1">域名我来<span class="index-text-big">代管</span></p>
+							<p class="text2">服务器<span class="index-text-big">我来维护</span></p>
+							<p class="text3">报表<span class="index-text-big">清除明细</span></p>
+							<p class="text4">7*24<span class="index-text-big">流畅</span>运行是最低保证</p>
+							<p class="text5">以分钟为单位响应<span class="index-text-big">无人能比</span></p>
+
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</section>
+
+	</article>
 </div>
 
 
 <!--移动端页面导航-->
 <div id="nav-mobile-wrap" class="visible-xs">
 
-  <div class="nav-mobile-close">
-    <span>x</span>
-  </div>
+	<div class="nav-mobile-close">
+		<span>x</span>
+	</div>
 
-  <div class="mobile-account-wrap">
+	<div class="mobile-account-wrap">
 
-    <a href="#">
-      <img class="circle" src="./images/head-portrait.png" alt="头像"/>
-    </a>
+		<a href="#">
+			<img src="./images/head-portrait.png" alt="头像"/>
+		</a>
 
-    <div class="mobile-account">
-      <a href="login.html">登录</a>
-      <a href="register.html">注册</a>
-    </div>
-  </div>
+		<div class="mobile-account">
+			<a href="login.html">登录</a>
+			<a href="register.html">注册</a>
+		</div>
+	</div>
 
-  <ul class="nav-mobile">
-
-    <li class="nav-main-current"><a href="index.html">首页<span class="sr-only">(current)</span></a></li>
-
-    <li><a href="manage-index.html">精益管理</a></li>
-
-    <li><a href="industry-schemes.html">行业方案</a></li>
-
-    <li><a href="product-market.html">产品超市</a></li>
-
-    <li><a href="team-strength.html">团队实力</a></li>
-
-    <li><a href="about-our.html">了解我们</a></li>
-
-    <li><a href="cooperation.html">合作事宜</a></li>
-  </ul>
+	<ul class="nav-mobile">
+		<li><a href="index.html">首页</a></li>
+		<li><a href="service.html">服务</a></li>
+		<li><a href="product-market.html">产品超市</a></li>
+		<li><a href="team-strength.html">团队实力</a></li>
+		<li><a href="about.html">了解我们</a></li>
+		<li><a href="cooperation.html">合作事宜</a></li>
+	</ul>
 </div>
 
 <script src="./javascripts/jquery.fullPage.js"></script>
 
+<script src="./javascripts/bootstrap.min.js"></script>
 
 <script src="./javascripts/main.js"></script>
-<script src="./javascripts/tagcloud.js"></script>
 
 <script>
-  $(document).ready(function () {
-    /*首页整屏切换*/
-    $('#fullpage').fullpage({
-      navigation: true,
-      navigationPosition: 'right',
-      navigationTooltips: ['首页', '需求', '设计', '开发', '测试', '运营', '运维'],
-      onLeave: function (index, nextIndex, direction) {
-        var sideBar = $("#fp-nav");
-        sideBar.hide();
-        if (direction == "down") {
-          sideBar.show();
-        } else {
+	$(document).ready(function (){
+		/*首页整屏切换*/
+		$('#fullpage').fullpage({
+			anchors: ['firstPage', 'secondPage', '3rdPage', 'fourthPage', 'fifthPage', 'sixthPage','seventhPage'],
+			navigation: true,
+			navigationPosition: 'right',
+			navigationTooltips: ['首页','需求', '设计', '开发', '测试' ,'运营', '运维']
+		});
 
-          if (index === 2) {
-            sideBar.hide();
-          } else {
-            sideBar.show();
-          }
-        }
+		/*首页子导航样式*/
+		function removeRightNav(){
+			if( $("#section0").hasClass("active")){
+				$("#fp-nav").hide();
+			}else{
+				$("#fp-nav").show();
 
-      }
-    });
-
-  });
-
-
+			}
+		}
+		setInterval(removeRightNav,1000);
+	});
 </script>
 
 </body>
