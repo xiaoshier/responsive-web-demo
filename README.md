@@ -1,4 +1,2 @@
-# responsive-web-demo
-
-
-适配任意尺寸设备,向下兼容至ie8
+# 响应式网站 demo
+向下兼容至IE8，适配任意分辨率
