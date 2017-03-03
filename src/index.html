@@ -101,33 +101,60 @@
 
   <article id="fullpage" class="content">
 
-    <section class="section " id="section0">
+    <!--<section class="section " id="section0">-->
 
-      <div id="text-cloud">
-        <span>线上有几个顾客就叫流量？</span>
-        <span>开个微店就叫微商？</span>
-        <span>淘宝快递太慢？</span>
-        <span>做个网店就叫电商？</span>
-        <span>贴了个商标就叫品牌？</span>
-        <span>实体店门可罗雀？</span>
+      <!--<div class="intro text-cloud">-->
+        <!--<a href="#" class="position-top top1">线上有几个顾客就叫流量？</a>-->
+        <!--<a href="#" class="position-top top2">开个微店就叫微商？</a>-->
+        <!--<a href="#" class="position-top top3">做个网店就叫电商？</a>-->
+        <!--<a href="#" class="position-top top4">贴了个商标就叫品牌？</a>-->
 
-        <span>地理位置好坏都没人来~</span>
+        <!--<a href="#" class="position-middle middle1">质量好,价格低,为什么没人买？</a>-->
+        <!--<a href="#" class="position-middle middle2">门脸租金暴涨,你还在为房东打工？</a>-->
+        <!--<a href="#" class="position-middle middle3">16年来了,你还有10年的货,库房不要钱？</a>-->
+        <!--<a href="#" class="position-middle middle4">员工工资暴涨,你还在为员工打工？</a>-->
+        <!--<a href="#" class="position-middle middle5">地理位置差没人来,地理位置好还是没人来~</a>-->
 
-        <span>做个网店就叫电商？</span>
-        <span>进货成本太高？</span>
-        <span>淘宝商品同类太多？</span>
-        <span>淘宝快递太慢？</span>
-        <span>淘宝竞价排名太贵？</span>
+        <!--<a href="#" class="position-bottom bottom1">进货成本太高？</a>-->
+        <!--<a href="#" class="position-bottom bottom2">淘宝品质较高,越来越无法吸引顾客？</a>-->
+        <!--<a href="#" class="position-bottom bottom3">淘宝商品同类太多？</a>-->
+        <!--<a href="#" class="position-bottom bottom4">淘宝快递太慢？</a>-->
+        <!--<a href="#" class="position-bottom bottom5">淘宝竞价排名太贵？</a>-->
 
-        <span>抓住互联网＋</span>
-        <span>转型怕死,不转型等死！</span>
-        <span>互联网?=销售渠道</span>
-        <span>实体店门可罗雀？</span>
-      </div>
+        <!--<a href="#" class="position-background background1">如何抓住互联网＋的机会</a>-->
+        <!--<a href="#" class="position-background background2">转型怕死,不转型等死！</a>-->
+        <!--<a href="#" class="position-background background3">世界这么大,而你却在夹缝中求生存?</a>-->
+        <!--<a href="#" class="position-background background4">互联网?=销售渠道</a>-->
+        <!--<a href="#" class="position-background background5">实体店门可罗雀？</a>-->
+        <!--<a href="#" class="position-background background6">实体店门可罗雀？</a>-->
+        <!--<a href="#" class="position-background background7">世界这么大,而你却在夹缝中求生存?</a>-->
+      <!--</div>-->
 
-      <!--向下的提示-->
-      <div class="index-next arrow-down"></div>
-    </section>
+      <!--<div id="text-cloud">-->
+        <!--<span>线上有几个顾客就叫流量？</span>-->
+        <!--<span>开个微店就叫微商？</span>-->
+        <!--<span>淘宝快递太慢？</span>-->
+        <!--<span>做个网店就叫电商？</span>-->
+        <!--<span>贴了个商标就叫品牌？</span>-->
+        <!--<span>实体店门可罗雀？</span>-->
+
+        <!--<span>地理位置好坏都没人来~</span>-->
+
+        <!--<span>做个网店就叫电商？</span>-->
+        <!--<span>进货成本太高？</span>-->
+        <!--<span>淘宝商品同类太多？</span>-->
+        <!--<span>淘宝快递太慢？</span>-->
+        <!--<span>淘宝竞价排名太贵？</span>-->
+
+        <!--<span>抓住互联网＋</span>-->
+        <!--<span>转型怕死,不转型等死！</span>-->
+        <!--<span>互联网?=销售渠道</span>-->
+        <!--<span>实体店门可罗雀？</span>-->
+      <!--</div>-->
+
+      <!--[>向下的提示<]-->
+      <!--<div class="index-next arrow-down"></div>-->
+    <!--</section>-->
 
     <section class="section " id="section1">
       <div class="intro index-content-container">
@@ -419,30 +446,15 @@
 
 
 <script src="./javascripts/main.js"></script>
-<script src="./javascripts/tagcloud.js"></script>
-
+<!--<script src="./javascripts/tagcloud.js"></script>-->
 <script>
+
   $(document).ready(function () {
     /*首页整屏切换*/
     $('#fullpage').fullpage({
       navigation: true,
       navigationPosition: 'right',
-      navigationTooltips: ['首页', '需求', '设计', '开发', '测试', '运营', '运维'],
-      onLeave: function (index, nextIndex, direction) {
-        var sideBar = $("#fp-nav");
-        sideBar.hide();
-        if (direction == "down") {
-          sideBar.show();
-        } else {
-
-          if (index === 2) {
-            sideBar.hide();
-          } else {
-            sideBar.show();
-          }
-        }
-
-      }
+      navigationTooltips: ['需求', '设计', '开发', '测试', '运营', '运维'],
     });
 
   });
